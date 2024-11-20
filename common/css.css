@@ -251,13 +251,16 @@ img[src=''], img[src=' '] {
 }
   /*use "," to apply same code to multiple selectors*/
   /*seems other animation is interupting on hover,orrr its just wrong*/
-  /* hides title bar, mini-player */
-  .w-full.z-101.navbar, .active.right.svelte-wrwrrq.svelte-wrwrrq {
+  /* hides title bar, mini-player, search, left bar */
+  .w-full.z-101.navbar, .svelte-wrwrrq.svelte-wrwrrq, form, .svelte-1lo50su.animate {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;    
     &:hover {
       opacity: 1;
     }
   }
-
+  .overflow-hidden.content-wrapper.h-full.z-10 > .bg-dark.h-full.w-full > div {
+    position: absolute;
+    display: table-column !important;
+  }
 
